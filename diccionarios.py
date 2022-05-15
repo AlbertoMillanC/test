@@ -40,7 +40,16 @@ if c > b:
 else:
   print(a, b, c)"""
 
-x = 0
+"""x = 0
 y = 4
 for y in range(11):
-    print(x, " x ", y, " = ", x*y)
+    print(x, " x ", y, " = ", x*y)"""
+    
+def perimetro_cuadrado(lado,unidades):
+    perimetro = lado * 4
+    print(f"El perimetro del cuadrado es:", (perimetro), (unidades))
+    
+perimetro_cuadrado(25,"metros")
+
+
+   
