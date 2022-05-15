@@ -15,3 +15,32 @@ for key,value in lenguaje.items():
 
 """
 frutas = {"fresa": "roja", "manzana": "verde", "plátano" : "amarillo"}
+
+"""for fruta in frutas.keys():
+    print(fruta)"""
+    
+"""frutas = ["manzana", "naranja", "piña"]
+for fruta in frutas:
+    x = 0
+    for letra in fruta:
+     x += 1
+    print("fruta: ", fruta)
+    print("tiene: ", x, " letras")
+    """
+"""a=10
+b=2 
+c=3
+if a > b:
+       if b > c:
+         print(b)
+elif b > c:
+  print(c)
+if c > b:
+  print(a)
+else:
+  print(a, b, c)"""
+
+x = 0
+y = 4
+for y in range(11):
+    print(x, " x ", y, " = ", x*y)
